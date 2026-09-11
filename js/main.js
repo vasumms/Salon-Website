@@ -3,7 +3,7 @@
       /* ---------- Configuration ---------- */
       /* Change the salon's WhatsApp number in this ONE place - every
          WhatsApp link and button on the page reads from it. */
-      var WHATSAPP_NUMBER = "919876543210"; // digits only, country code first, no + or spaces
+      var WHATSAPP_NUMBER = "919360501358"; // digits only, country code first, no + or spaces
       var GENERIC_MESSAGE = "Hi, I'd like to book an appointment.";
 
       function waLink(message) {
