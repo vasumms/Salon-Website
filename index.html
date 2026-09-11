@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUXE STUDIO — Premium Grooming &amp; Styling</title>
+<meta name="description" content="LUXE Studio is a modern grooming destination in Anna Nagar, Madurai — haircuts, colour, styling, facials and hair spa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">LUXE<small>STUDIO</small></div>
+
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="#appointment" class="btn btn-primary nav-cta">Book Appointment</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-mobile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav-mobile" id="nav-mobile">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#appointment" class="btn btn-primary">Book Appointment</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1 class="headline">Look good.<br>Feel confident.</h1>
+      <div class="rule"></div>
+      <p class="hero-sub">Premium grooming &amp; styling for the modern you.</p>
+      <div class="cta-row">
+        <a href="#appointment" class="btn btn-primary">Book an Appointment</a>
+        <a href="#" data-whatsapp-generic target="_blank" rel="noopener" class="btn btn-secondary">WhatsApp Us</a>
+      </div>
+      <div class="rating-row">
+        <span class="stars">★★★★★</span>
+        <span class="rating-text"><strong>4.9/5</strong></span>
+        <span class="rating-divider"></span>
+        <span class="rating-text">500+ happy clients</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section services" id="services">
+    <div class="section-head">
+      <h2 class="section-title">Our Services</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Everything you need to look your best.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <article class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=800&auto=format&fit=crop" alt="Haircut in progress" loading="lazy">
+        </div>
+        <div class="service-body">
+          <h3 class="service-name">Haircut</h3>
+          <p class="service-sub">Professional cuts tailored to your style.</p>
+          <div class="service-price">₹250+</div>
+          <button class="service-book" data-service="Haircut">
+            Book now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=800&auto=format&fit=crop" alt="Beard styling" loading="lazy">
+        </div>
+        <div class="service-body">
+          <h3 class="service-name">Beard Styling</h3>
+          <p class="service-sub">Shape, trim &amp; styling.</p>
+          <div class="service-price">₹150+</div>
+          <button class="service-book" data-service="Beard Styling">
+            Book now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?q=80&w=800&auto=format&fit=crop" alt="Hair styling" loading="lazy">
+        </div>
+        <div class="service-body">
+          <h3 class="service-name">Hair Styling</h3>
+          <p class="service-sub">Modern styling for every occasion.</p>
+          <div class="service-price">₹350+</div>
+          <button class="service-book" data-service="Hair Styling">
+            Book now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?q=80&w=800&auto=format&fit=crop" alt="Hair colouring" loading="lazy">
+        </div>
+        <div class="service-body">
+          <h3 class="service-name">Hair Color</h3>
+          <p class="service-sub">Premium colouring and treatments.</p>
+          <div class="service-price">₹999+</div>
+          <button class="service-book" data-service="Hair Color">
+            Book now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop" alt="Facial treatment" loading="lazy">
+        </div>
+        <div class="service-body">
+          <h3 class="service-name">Facial</h3>
+          <p class="service-sub">Relaxing skincare treatments.</p>
+          <div class="service-price">₹499+</div>
+          <button class="service-book" data-service="Facial">
+            Book now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-media">
+          <img src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?q=80&w=800&auto=format&fit=crop" alt="Hair spa treatment" loading="lazy">
+        </div>
+        <div class="service-body">
+          <h3 class="service-name">Hair Spa</h3>
+          <p class="service-sub">Deep nourishment and care.</p>
+          <div class="service-price">₹699+</div>
+          <button class="service-book" data-service="Hair Spa">
+            Book now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Why choose us -->
+  <section class="section why" id="why">
+    <div class="section-head">
+      <h2 class="section-title">Why LUXE Studio?</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Reasons clients keep coming back.</p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-item">
+        <span class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg></span>
+        <span>Experienced stylists</span>
+      </div>
+      <div class="why-item">
+        <span class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg></span>
+        <span>Premium products</span>
+      </div>
+      <div class="why-item">
+        <span class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg></span>
+        <span>Hygienic environment</span>
+      </div>
+      <div class="why-item">
+        <span class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg></span>
+        <span>Personalized styling</span>
+      </div>
+      <div class="why-item">
+        <span class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg></span>
+        <span>Affordable pricing</span>
+      </div>
+      <div class="why-item">
+        <span class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg></span>
+        <span>Easy appointment booking</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Before / After -->
+  <section class="section transform" id="transformation">
+    <div class="section-head">
+      <h2 class="section-title">The Transformation</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Drag the divider, or use the arrow keys once it's focused, to compare before and after.</p>
+    </div>
+
+    <div class="compare-wrap">
+      <div class="compare" data-compare>
+        <div class="compare-image compare-after">
+          <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=1400&auto=format&fit=crop" alt="Client after their appointment, with finished colour and style" draggable="false">
+        </div>
+        <div class="compare-image compare-before">
+          <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=1400&auto=format&fit=crop" alt="Client before their appointment" draggable="false">
+        </div>
+
+        <span class="compare-tag compare-tag-before">Before</span>
+        <span class="compare-tag compare-tag-after">After</span>
+
+        <div class="compare-divider"></div>
+        <div class="compare-handle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 6l-6 6 6 6"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6l6 6-6 6"/></svg>
+        </div>
+
+        <input class="compare-range" type="range" min="0" max="100" value="50" step="0.1" aria-label="Comparison slider between before and after image">
+      </div>
+
+      <div class="compare-labels">
+        <span>Before</span>
+        <span>After</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section gallery" id="gallery">
+    <div class="section-head">
+      <h2 class="section-title">Gallery</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Haircuts, colour, styling and the studio itself. Tap any photo to see it larger.</p>
+    </div>
+
+    <div class="gallery-grid">
+      <button class="gallery-item"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=1000&auto=format&fit=crop" alt="Fresh haircut finish"></button>
+      <button class="gallery-item"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=1000&auto=format&fit=crop" alt="Sharp beard styling"></button>
+      <button class="gallery-item"><img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb7ba?q=80&w=1000&auto=format&fit=crop" alt="Studio interior"></button>
+      <button class="gallery-item"><img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?q=80&w=1000&auto=format&fit=crop" alt="Hair colouring session"></button>
+      <button class="gallery-item"><img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=1400&auto=format&fit=crop" alt="Finished styling look"></button>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close preview">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>
+    </button>
+    <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous image">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+    </button>
+    <img id="lightbox-img" src="" alt="">
+    <button class="lightbox-next" id="lightbox-next" aria-label="Next image">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+    </button>
+  </div>
+
+  <!-- Pricing -->
+  <section class="section pricing" id="pricing">
+    <div class="section-head">
+      <h2 class="section-title">Pricing &amp; Packages</h2>
+      <div class="rule"></div>
+      <p class="section-sub">Three ways to book, priced plainly. Replace these with your own rates any time.</p>
+    </div>
+
+    <div class="pricing-grid">
+
+      <div class="price-card">
+        <h3 class="price-name">Basic</h3>
+        <div class="price-amount">₹399</div>
+        <ul class="price-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Haircut</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Beard trim</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Hair wash</li>
+        </ul>
+        <button class="btn btn-secondary" data-service="Basic Package">Book Now</button>
+      </div>
+
+      <div class="price-card featured">
+        <span class="price-badge">Most popular</span>
+        <h3 class="price-name">Premium</h3>
+        <div class="price-amount">₹799</div>
+        <ul class="price-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Haircut</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Beard styling</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Hair spa</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Face cleanup</li>
+        </ul>
+        <button class="btn btn-primary" data-service="Premium Package">Book Now</button>
+      </div>
+
+      <div class="price-card">
+        <h3 class="price-name">Signature</h3>
+        <div class="price-amount">₹1,499</div>
+        <ul class="price-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Premium haircut</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Beard styling</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Facial</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Hair spa</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>Styling</li>
+        </ul>
+        <button class="btn btn-secondary" data-service="Signature Package">Book Now</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="section-head">
+      <h2 class="section-title">More Than A Haircut. It's Your Style.</h2>
+      <div class="rule"></div>
+      <p class="section-sub">
+        LUXE Studio is a modern grooming destination focused on
+        personalized styling, premium products and an experience
+        that makes every visit worth it.
+      </p>
+    </div>
+
+    <div class="about-stats">
+      <div>
+        <p class="stat-num">8+</p>
+        <p class="stat-label">Years experience</p>
+      </div>
+      <div>
+        <p class="stat-num">5000+</p>
+        <p class="stat-label">Clients</p>
+      </div>
+      <div>
+        <p class="stat-num">4.9★</p>
+        <p class="stat-label">Rating</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Appointment -->
+  <section class="section appointment" id="appointment">
+    <div class="appointment-grid">
+      <div class="section-head" style="margin-bottom:0;">
+        <h2 class="section-title">Ready for a New Look?</h2>
+        <div class="rule"></div>
+        <p class="section-sub">
+          Fill this in and we'll open WhatsApp with your details
+          ready to send — no account needed.
+        </p>
+      </div>
+
+      <form class="form" id="appointment-form">
+        <div class="field">
+          <label for="af-name">Name</label>
+          <input type="text" id="af-name" name="name" required autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label for="af-phone">Phone</label>
+          <input type="tel" id="af-phone" name="phone" required autocomplete="tel">
+        </div>
+
+        <div class="field">
+          <label for="af-service">Choose Service</label>
+          <select id="af-service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <optgroup label="Services">
+              <option value="Haircut">Haircut — ₹250+</option>
+              <option value="Beard Styling">Beard Styling — ₹150+</option>
+              <option value="Hair Styling">Hair Styling — ₹350+</option>
+              <option value="Hair Color">Hair Color — ₹999+</option>
+              <option value="Facial">Facial — ₹499+</option>
+              <option value="Hair Spa">Hair Spa — ₹699+</option>
+            </optgroup>
+            <optgroup label="Packages">
+              <option value="Basic Package">Basic Package — ₹399</option>
+              <option value="Premium Package">Premium Package — ₹799</option>
+              <option value="Signature Package">Signature Package — ₹1,499</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="af-date">Preferred Date</label>
+            <input type="date" id="af-date" name="date" required>
+          </div>
+          <div class="field">
+            <label for="af-time">Preferred Time</label>
+            <select id="af-time" name="time" required>
+              <option value="" disabled selected>Select a time</option>
+              <option>9:00 AM</option>
+              <option>10:00 AM</option>
+              <option>11:00 AM</option>
+              <option>12:00 PM</option>
+              <option>1:00 PM</option>
+              <option>2:00 PM</option>
+              <option>3:00 PM</option>
+              <option>4:00 PM</option>
+              <option>5:00 PM</option>
+              <option>6:00 PM</option>
+              <option>7:00 PM</option>
+              <option>8:00 PM</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="af-note">Note (optional)</label>
+          <textarea id="af-note" name="note" rows="3" placeholder="Anything we should know? e.g. short haircut, allergies..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Book Appointment</button>
+      </form>
+
+      <!-- Shown after the form is submitted, instead of it -->
+      <div class="appt-confirm" id="appt-confirm" hidden>
+        <div class="appt-confirm-head">
+          <span class="check">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </span>
+          <h3>Appointment Request Ready</h3>
+        </div>
+
+        <dl class="appt-confirm-details">
+          <div class="appt-confirm-row"><dt>Name</dt><dd id="conf-name"></dd></div>
+          <div class="appt-confirm-row"><dt>Service</dt><dd id="conf-service"></dd></div>
+          <div class="appt-confirm-row"><dt>Date</dt><dd id="conf-date"></dd></div>
+          <div class="appt-confirm-row"><dt>Time</dt><dd id="conf-time"></dd></div>
+          <div class="appt-confirm-row" id="conf-note-row"><dt>Note</dt><dd id="conf-note"></dd></div>
+        </dl>
+
+        <div class="appt-confirm-actions">
+          <a href="#" id="appt-whatsapp-link" target="_blank" rel="noopener" class="btn btn-whatsapp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 4h4l1.5 5-2.5 1.5a12 12 0 0 0 6 6L15 14l5 1.5v4a1.5 1.5 0 0 1-1.6 1.5A16 16 0 0 1 3 5.6 1.5 1.5 0 0 1 4.5 4Z"/></svg>
+            Send Booking via WhatsApp
+          </a>
+          <button type="button" id="appt-edit" class="btn btn-ghost">Edit Details</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit / Map -->
+  <section class="section visit" id="contact">
+    <div class="section-head">
+      <h2 class="section-title">Visit Us</h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="visit-grid">
+      <div class="visit-info">
+        <div class="visit-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-7.2-7-12a7 7 0 0 1 14 0c0 4.8-7 12-7 12Z"/><circle cx="12" cy="9" r="2.4"/></svg>
+          <p><strong>Address</strong>Anna Nagar, Madurai</p>
+        </div>
+        <div class="visit-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3.2 2"/></svg>
+          <p><strong>Hours</strong>Mon–Sun, 9:00 AM – 9:00 PM</p>
+        </div>
+        <div class="visit-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 4h4l1.5 5-2.5 1.5a12 12 0 0 0 6 6L15 14l5 1.5v4a1.5 1.5 0 0 1-1.6 1.5A16 16 0 0 1 3 5.6 1.5 1.5 0 0 1 4.5 4Z"/></svg>
+          <p><strong>Phone</strong>+91 XXXXX XXXXX</p>
+        </div>
+      </div>
+
+      <div class="map-frame">
+        <iframe
+          src="https://www.google.com/maps?q=Anna+Nagar,+Madurai&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="LUXE Studio location on Google Maps">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">LUXE STUDIO</div>
+        <p>Premium grooming &amp; styling.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="12" cy="12" r="3.2"/><circle cx="16.2" cy="7.8" r="0.6" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 21v-7h2.5l.5-3H14V9c0-.9.3-1.5 1.7-1.5H17V4.9C16.6 4.9 15.6 4.8 14.5 4.8 12.2 4.8 10.6 6.2 10.6 8.7V11H8v3h2.6v7Z"/></svg></a>
+          <a href="#" data-whatsapp-plain aria-label="WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 4h4l1.5 5-2.5 1.5a12 12 0 0 0 6 6L15 14l5 1.5v4a1.5 1.5 0 0 1-1.6 1.5A16 16 0 0 1 3 5.6 1.5 1.5 0 0 1 4.5 4Z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#appointment">Book Appointment</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">© 2026 LUXE Studio</div>
+  </footer>
+
+  <!-- Floating WhatsApp (desktop/tablet corner bubble) -->
+  <a class="whatsapp-float" href="#" data-whatsapp-generic target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 4h4l1.5 5-2.5 1.5a12 12 0 0 0 6 6L15 14l5 1.5v4a1.5 1.5 0 0 1-1.6 1.5A16 16 0 0 1 3 5.6 1.5 1.5 0 0 1 4.5 4Z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <!-- Sticky mobile CTA bar: keeps booking one thumb-tap away on phones -->
+  <div class="mobile-cta-bar">
+    <a href="#appointment" class="btn btn-primary">Book Now</a>
+    <a href="#" data-whatsapp-generic target="_blank" rel="noopener" class="btn btn-whatsapp">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 4h4l1.5 5-2.5 1.5a12 12 0 0 0 6 6L15 14l5 1.5v4a1.5 1.5 0 0 1-1.6 1.5A16 16 0 0 1 3 5.6 1.5 1.5 0 0 1 4.5 4Z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
